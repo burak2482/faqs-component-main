@@ -13,7 +13,7 @@ export default function Accordion ({ title, content }) {
       <div className="flex justify-between items-center">
         <h2 className="text-lg font-semibold">{title}</h2>
         <button onClick={toggleAccordion} className="rounded-md w-10 h-10 flex items-center justify-center p-2">
-          {isOpen ? <Image src="icon-minus.svg" width={20} height={20} /> : <Image src="icon-plus.svg" width={20} height={20} />}
+          {isOpen ? <Image src="./icon-minus.svg" width={20} height={20} /> : <Image src="./icon-plus.svg" width={20} height={20} />}
         </button>
       </div>
 
