@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        customNormal: ['MyCustomFont', 'sans-serif'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        customPurple: 'rgb(140, 105, 145)', 
+        customDarkPurple: 'rgb(47, 21, 51)', 
+        customPink: 'rgb(249, 240, 255)',
       },
     },
   },
